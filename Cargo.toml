@@ -1,0 +1,13 @@
+[package]
+name = "graphlib"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+color-eyre = "*"
+rand = "*"
+itoa = "1.0"
+smallvec = "1.8.1"
+clap = { version = "3", features = ["derive"] }
